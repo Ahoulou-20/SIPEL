@@ -349,11 +349,12 @@
     <!-- Début section nos services -->
 
     <h1 class="text_titre">Nos services</h1>
+
     <section class="services">
       <div class="services-elem">
         <img src="{% static 'main/images/ELECTRICITE.jpg' %}" alt="" />
-        <h4>Acheter un bien</h4>
-        <p>Des états des lieux et des suivis</p>
+        <h4>électricité</h4>
+
         <p>travaux professionnels</p>
 
         <button
@@ -367,9 +368,8 @@
       </div>
       <div class="services-elem">
         <img src="{% static 'main/images/PLOMBERIE.jpg' %}" alt="" />
-        <h4>Louer un bien</h4>
-        <p>Une gestion rigoureuse des</p>
-        <p>dossiers locataires</p>
+        <h4>Plomberie</h4>
+        <p>Une gestion rigoureuse des travaux</p>
         <button
           type="button"
           class="btn btn-primary center"
@@ -381,9 +381,9 @@
       </div>
       <div class="services-elem">
         <img src="{% static 'main/images/PROTECTION-INCENDIE.jpg' %}" alt="" />
-        <h4>Vendre un bien</h4>
-        <p>Des conseils et estimations</p>
-        <p>professionnalisées</p>
+        <h4>Protection incendie</h4>
+        <p>Plus de sécurité</p>
+
         <button
           type="button"
           class="btn btn-primary center"
@@ -395,9 +395,8 @@
       </div>
       <div class="services-elem">
         <img src="{% static 'main/images/SOLUTION-DURABLE.jpg' %}" alt="" />
-        <h4>Appartements et bâtiments</h4>
-        <p>Une large gamme</p>
-        <p>d'appartements de qualités</p>
+        <h4>Solution durable</h4>
+        <p>Toujours des solutions</p>
         <button
           type="button"
           class="btn btn-primary center"
@@ -424,7 +423,16 @@
             ></button>
           </div>
           <div class="modal-body">
-            <p>Mots de description</p>
+            <p>
+              Nous intervenons à chaque étape, de la conception à la réalisation
+              des installations électriques, en couvrant la haute tension (HTA)
+              et la basse tension (BT). Cette présence dès la phase de
+              conception nous permet de garantir que les installations
+              respectent les normes de sécurité et sont optimisées pour une
+              performance durable. Grâce à notre expertise en HTA et BT, nous
+              répondons aux besoins variés de nos clients, qu’il s’agisse
+              d'installations industrielles ou résidentielles.
+            </p>
             <img
               style="width: 99%; height: 150px"
               src="{% static 'main/images/ELECTRICITE.jpg' %}"
@@ -437,7 +445,7 @@
               class="btn btn-secondary"
               data-bs-dismiss="modal"
             >
-              En savoir -
+              Fermer
             </button>
           </div>
         </div>
@@ -456,7 +464,13 @@
             ></button>
           </div>
           <div class="modal-body">
-            <p>Mots de description</p>
+            <p>
+              Nous vous accompagnons de la conception à la réalisation de vos
+              projets de plomberie, en respectant les règles de l'art et les
+              normes en vigueur. Notre expertise garantit des installations
+              fiables et durables, assurant ainsi la sécurité et la qualité de
+              vos systèmes de plomberie.
+            </p>
             <img
               style="width: 99%; height: 150px"
               src="{% static 'main/images/PLOMBERIE.jpg' %}"
@@ -469,7 +483,7 @@
               class="btn btn-secondary"
               data-bs-dismiss="modal"
             >
-              En savoir -
+              Fermer
             </button>
           </div>
         </div>
@@ -489,7 +503,11 @@
             ></button>
           </div>
           <div class="modal-body">
-            <p>Mots de description</p>
+            <p>
+              Nous assurons l'installation de dispositifs de sécurité incendie,
+              en veillant à ce qu'ils soient conformes aux normes en vigueur
+              pour garantir une protection efficace et fiable en cas d'incendie.
+            </p>
             <img
               style="width: 99%; height: 150px"
               src="{% static 'main/images/PROTECTION-INCENDIE.jpg' %}"
@@ -502,7 +520,7 @@
               class="btn btn-secondary"
               data-bs-dismiss="modal"
             >
-              En savoir -
+              Fermer
             </button>
           </div>
         </div>
@@ -522,7 +540,12 @@
             ></button>
           </div>
           <div class="modal-body">
-            <p>Mots de description</p>
+            <p>
+              Nous proposons des solutions durables, conçues pour optimiser
+              l'efficacité énergétique et minimiser l'impact environnemental,
+              tout en garantissant des performances fiables et pérennes pour vos
+              installations.
+            </p>
             <img
               style="width: 99%; height: 150px"
               src="{% static 'main/images/SOLUTION-DURABLE.jpg' %}"
@@ -535,7 +558,7 @@
               class="btn btn-secondary"
               data-bs-dismiss="modal"
             >
-              En savoir -
+              Fermer
             </button>
           </div>
         </div>
@@ -547,29 +570,81 @@
     <br />
     <!--Début Charte-->
     <h1 class="text_titre">Charte</h1>
-
+    <section style="width: 80%; margin: auto">
+      <br />
+      <div class="charts-elem">
+        <div class="charts-1">
+          <img src="{% static 'main/images/mission-vision.png' %}" alt="" />
+          <div class="charts-1-1">
+            <p>
+              <span>Vision : </span>
+              Devenir un leader reconnu en électricité et plomberie, élargir nos
+              services avec des solutions innovantes, et rester exemplaires par
+              notre professionnalisme, l'engagement de nos équipes et notre
+              responsabilité citoyenne.
+            </p>
+            <p>
+              <span>Mission : </span>
+              Nous nous engageons dans l'étude, la réalisation et la maintenance
+              de tous travaux de plomberie et d'électricité, en proposant des
+              solutions clé en main, innovantes et ergonomiques pour satisfaire
+              nos clients, tout en promouvant l'esprit d'équipe et
+              l'épanouissement de nos collaborateurs à travers le partage des
+              valeurs et le développement des compétences.
+            </p>
+          </div>
+        </div>
+        <div class="charts-1">
+          <img src="{% static 'main/images/valeurs.png' %}" alt="" />
+          <div class="charts-1-1">
+            <p>
+              <span>Réactivité : </span>
+              Anticipation, capacité à répondre efficacement au besoin
+            </p>
+            <p>
+              <span>Professionnalisme : </span>
+              Capacité à se dépasser pour la réussite de l'entreprise
+              (implication et enthousiasme)
+            </p>
+            <p>
+              <span>Esprit d'équipe : </span>
+              Capacité à fédérer l'ensemble des collaborateurs autour d'un
+              objectif commun, sens de l'entraide, du dialogue et de l'écoute.
+            </p>
+            <p>
+              <span>RSE </span>
+              Responsabilité Sociale et Ecoute
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--Fin Charte-->
 
     <!--Début réalisation-->
     <h1 class="text_titre">Nos Réalisations</h1>
     <!-- section destination -->
     <section id="realisations">
+      <h4 class="text_description">
+        Bienvenue à notre exposition, où nous avons le plaisir de vous présenter
+        les projets qui témoignent de notre expertise, de notre engagement et de
+        notre passion pour l'innovation. Depuis notre fondation, nous nous
+        sommes engagés à fournir des solutions sur mesure qui répondent aux
+        besoins uniques de nos clients. Ces projets illustrent notre capacité à
+        relever les défis, à innover et à garantir la satisfaction de nos
+        partenaires.
+      </h4>
       <div class="content">
         <!-- box -->
         <div class="box">
           <img
-            src="{% static 'main/images/PROTECTION-INCENDIE.jpg' %}"
+            src="{% static 'main/images/realisations/cereao.jpg' %}"
             alt=""
           />
           <div class="content">
             <div>
-              <h4>Informations pratiques</h4>
-              <p>pour les visiteurs :</p>
-              <p>
-                comment se rendre à Sassandra, où se loger, où manger, où
-                acheter des souvenirs.
-              </p>
-              <a href="#">Lire Plus</a>
+              <h4>CEREAO Plateau</h4>
+              <p>Descriptions</p>
             </div>
           </div>
         </div>
@@ -577,15 +652,13 @@
         <!-- box -->
         <div class="box">
           <img
-            src="{% static 'main/images/PROTECTION-INCENDIE.jpg' %}"
+            src="{% static 'main/images/realisations/cosmos.jpg' %}"
             alt=""
           />
           <div class="content">
             <div>
-              <h4>Histoire et patrimoine de Sassandra</h4>
-              <p>avec des descriptions de bâtiments historiques,</p>
-              <p>de monuments et de sites naturels importants.</p>
-              <a href="#">Lire Plus</a>
+              <h4>COSMOS Yopougon</h4>
+              <p>Descriptions</p>
             </div>
           </div>
         </div>
@@ -593,17 +666,13 @@
         <!-- box -->
         <div class="box">
           <img
-            src="{% static 'main/images/PROTECTION-INCENDIE.jpg' %}"
+            src="{% static 'main/images/realisations/farah-cote-ivoire.jpg' %}"
             alt=""
           />
           <div class="content">
             <div>
-              <h4>
-                Manifestations culturelles et artistiques organisées à Sassandra
-              </h4>
-              <p>notamment des festivals de musique,</p>
-              <p>de danse, de théâtre, etc.</p>
-              <a href="#">Lire Plus</a>
+              <h4>FARAH Côte d'Ivoire</h4>
+              <p>Descriptions</p>
             </div>
           </div>
         </div>
@@ -611,15 +680,13 @@
         <!-- box -->
         <div class="box">
           <img
-            src="{% static 'main/images/PROTECTION-INCENDIE.jpg' %}"
+            src="{% static 'main/images/realisations/HOTEL_IVOIRE_8.jpg' %}"
             alt=""
           />
           <div class="content">
             <div>
-              <h4>Activités et loisirs que vous pouvez pratiquer</h4>
-              <p>comme la baignade, la pêche,</p>
-              <p>la randonnée, etc.</p>
-              <a href="#">Lire Plus</a>
+              <h4>HOTEL IVOIRE Cocody</h4>
+              <p>Descriptions</p>
             </div>
           </div>
         </div>
@@ -627,15 +694,13 @@
         <!-- box -->
         <div class="box">
           <img
-            src="{% static 'main/images/PROTECTION-INCENDIE.jpg' %}"
+            src="{% static 'main/images/realisations/MERMOZ.jpg' %}"
             alt=""
           />
           <div class="content">
             <div>
-              <h4>Gastronomie</h4>
-              <p>Descriptions des produits locaux, de la gastronomie</p>
-              <p>et des spécialités culinaires de Sassandra et des environs.</p>
-              <a href="#">Lire Plus</a>
+              <h4>MERMOZ</h4>
+              <p>Descriptions</p>
             </div>
           </div>
         </div>
@@ -643,15 +708,13 @@
         <!-- box -->
         <div class="box">
           <img
-            src="{% static 'main/images/PROTECTION-INCENDIE.jpg' %}"
+            src="{% static 'main/images/realisations/radison.jpg' %}"
             alt=""
           />
           <div class="content">
             <div>
-              <h4>projets de développement et les initiatives locales</h4>
-              <p>notamment en matière d'environnement, d'agriculture,</p>
-              <p>de commerce, etc.</p>
-              <a href="#">Lire Plus</a>
+              <h4>RADISON</h4>
+              <p>Descriptions</p>
             </div>
           </div>
         </div>
